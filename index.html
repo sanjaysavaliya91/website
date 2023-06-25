@@ -9,15 +9,15 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href=" 	https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
-
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
+    
 </head>
 
 <body>
     <!-- menu  -->
     <nav class="navbar navbar-expand-lg  nav-bg-color sticky-lg-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <span class="fs-3 fw-bold"> icon Bike Service</span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -29,23 +29,30 @@
                         <a class="nav-link active" href="#"><i class="fa-solid fa-house fa-lg"></i> Home</a>
                     </li>
                     <li class="nav-item fs-5 text-dark p-2">
-                        <a class="nav-link" href="#"> <i class="fa-sharp fa-solid fa-motorcycle fa-lg"></i> Bike
+                        <a class="nav-link" href="#bike_inspection"> <i
+                                class="fa-sharp fa-solid fa-motorcycle fa-lg"></i> Bike
                             inspection</a>
                     </li>
                     <li class="nav-item fs-5 text-dark p-2">
-                        <a class="nav-link" href="#"><i class="fa-sharp fa-solid fa-car-battery fa-lg"></i> Battery</a>
+                        <a class="nav-link" href="#battery"><i class="fa-sharp fa-solid fa-car-battery fa-lg"></i>
+                            Battery</a>
                     </li>
                     <li class="nav-item fs-5 text-dark p-2">
-                        <a class="nav-link" href="#"> <i class="fa-sharp fa-solid fa-car-battery fa-lg"></i> Engine
+                        <a class="nav-link" href="#engine_work"> <i
+                                class="fa-sharp fa-solid fa-screwdriver-wrench fa-lg"></i>Engine
                             Work</a>
                     </li>
                     <li class="nav-item fs-5 text-dark p-2">
-                        <a class="nav-link" href="#"> <i class="fa-sharp fa-solid fa-motorcycle fa-lg"></i> Electrical
-                            Repair</a>
+                        <a class="nav-link" href="#electrical_repair"><i
+                                class="fa-solid fa-heart-circle-bolt fa-lg"></i> Electrical Repair</a>
                     </li>
                     <li class="nav-item fs-5 text-dark p-2">
-                        <a class="nav-link" href="#"> <i class="fa-sharp fa-solid fa-motorcycle fa-lg"></i> Review</a>
+                        <a class="nav-link" href="#book_service"> <i class="fa-light fa-star-sharp fa-lg"></i>Book Service</a>
                     </li>
+                    <li class="nav-item fs-5 text-dark p-2">
+                        <a class="nav-link" href="#review"> <i class="fa-light fa-star-sharp fa-lg"></i>Review</a>
+                    </li>
+                    
                 </ul>
             </div>
         </div>
@@ -54,49 +61,54 @@
     <!-- slider  -->
     <div id="banner_image" class="carousel slide">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#banner_image" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#banner_image" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#banner_image" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#banner_image" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#banner_image" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#banner_image" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="image/banner_image.jpg" class="d-block w-100 img-fluid" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Affordable service packages to keep your motorbike running smoothly.</h5>
-              <p>Experienced mechanics providing comprehensive motorbike maintenance.</p>
+            <div class="carousel-item active">
+                <img src="image/banner_image.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Affordable service packages to keep your motorbike running smoothly.</h5>
+                    <p>Experienced mechanics providing comprehensive motorbike maintenance.</p>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="image/banner2.jpg" class="d-block w-100 img-fluid" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Expert diagnosis and repairs for all motorbike models.</h5>
-              <p>Quick turnaround time to minimize your downtime.</p>
+            <div class="carousel-item">
+                <img src="image/banner2.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Expert diagnosis and repairs for all motorbike models.</h5>
+                    <p>Quick turnaround time to minimize your downtime.</p>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="image/banner3.jpg" class="d-block w-100 img-fluid" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 >Transparent pricing with no hidden costs.</h5>
-              <p>Customization options to enhance your motorbike's aesthetics and functionality.</p>
+            <div class="carousel-item">
+                <img src="image/banner3.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Transparent pricing with no hidden costs.</h5>
+                    <p>Customization options to enhance your motorbike's aesthetics and functionality.</p>
+                </div>
             </div>
-          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#banner_image" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#banner_image" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
     <!-- slider  -->
 
     <!-- how we work  -->
     <div class="container how-work my-5 ">
-        <div class="row mt-4">
-            <div class="col-12 ">
-                <h2 class="text-center fw-bold text-uppercase mb-4"> How We Works ?</h2>
+        <div class="row mt-5">
+            <div class="col-12 p-2">
+                <div class="logo">
+                    <span class="logo-font">How </span>We work ?
+                </div>
+            </div>
+        </div>
                 <hr>
                 <div class="row ">
                     <div class="col-8 col-sm-6 col-md-6 col-12"><br />
@@ -147,11 +159,15 @@
     </div>
     <!-- how we work  -->
     <!-- (1) Top categories -->
-    <section class="pt-5 pb-5 bg-dark-subtle">
+    <section class="pt-5 pb-5 mt-5 bgc-2">
         <div class="container">
-            <h2 class="text-center fw-bold text-uppercase mb-5 p-2">
-                Top Categories
-            </h2>
+            <div class="row">
+                <div class="col-12">
+                    <div class="logo">
+                        <span class="logo-font">Top </span>Categories
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-12 text-center">
                     <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators3" role="button"
@@ -268,163 +284,174 @@
     <!-- (1) Top categories -->
 
     <!-- (2) Bike inspection Service  -->
-    <div class="container-fluid nav-bg-color p-2">
-        <h2 class="text-center fw-bold text-uppercase my-5">
-            Bike inspection Service
-        </h2>
-        <div class="row justify-content-center p-4 ">
-            <div class="col-12 col-md-3 col-sm-6 mb-3">
-                <div class="card card_border">
-                    <div class="card-header">
-                        <img src="image/bike_inspection.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h3 class="fw-bold text-center">Full Bike Inspection</h3>
-                        <hr>
-                        <b>(1)Package Inclusions</b> <br />
-                        Checking of Vehicle Condition <br />
-                        Quick Turnaround time based on Approval <br />
-                        Test ride of Vehicle is Done to Identify Issues <br />
-                        Complete Estimate of Work will be Provided Instantly <br />
-                        Discount on Spares and Repair Labour <br />
-                        21 Days Warranty on Spares Used <br /><br />
-                        <b>(2)Package Excluded</b> <br />
-                        Spares Not Included
-                        Repair or Service Work
+    <section id="bike_inspection">
+        <div class="container-fluid bgc-3 py-2 pb-5 pt-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="logo">
+                        <span class="logo-font">Bike Inspection </span>Service
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 col-sm-6 mb-3">
-                <div class="card card_border">
-                    <div class="card-header">
-                        <img src="image/bike_buysell.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h3 class="fw-bold text-center"> Bike Buy Sell Inspection</h3>
-                        <hr>
-                        <b>Package Inclusions</b>
-                        Immediate Quote is provided by Icon Team <br />
-                        Incase vehicle is not in running condition, basic diagnostics is done to access scope of work
-                        <br />
-                        Test ride of vehicle is done to identify issues <br />
-                        Mechanic visit at doorstep for inspection <br />
-                        Quick turn around time to complete job at doorstep <br />
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-sm-6 mb-3">
-                <div class="card card_border">
-                    <div class="card-header">
-                        <img src="image/engine_work.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h3 class="fw-bold text-center">Engine Work Inspection</h3>
-                        <hr>
-                        <b>(1)Package Inclusions</b>
-                        Checking for Emission from Exhaust <br />
-                        Checking the Oil Leakage <br />
-                        Check Engine Oil Level <br />
-                        Estimate of Work will be Provided Instantly <br />
-                        Discount on Spares and Repair Labour <br />
-                        <b>(2)Package Excluded</b>
-                        Spares Not Included done <br />
-                        Repair or Service Work<br />
+            <div class="row justify-content-center p-4 ">
+                <div class="col-12 col-md-3 col-sm-6 mb-3">
+                    <div class="card card_border">
+                        <div class="card-header">
+                            <img src="image/bike_inspection.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="fw-bold text-center">Full Bike Inspection</h3>
+                            <hr>
+                            <b>(1)Package Inclusions</b> <br />
+                            Checking of Vehicle Condition <br />
+                            Quick Turnaround time based on Approval <br />
+                            Test ride of Vehicle is Done to Identify Issues <br />
+                            Complete Estimate of Work will be Provided Instantly <br />
+                            Discount on Spares and Repair Labour <br />
+                            21 Days Warranty on Spares Used <br /><br />
+                            <b>(2)Package Excluded</b> <br />
+                            Spares Not Included
+                            Repair or Service Work
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-3 col-sm-6 mb-3">
-                <div class="card card_border">
-                    <div class="card-header">
-                        <img src="image/petrol_leakage.jpeg" class="img-fluid" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h3 class="fw-bold text-center">Petrol Leakage Inspection</h3>
-                        <hr>
-                        Test ride of Vehicle is Done to Identify Issues <br />
-                        Checking of Vehicle Condition <br />
-                        Physical Inspection of Fuel Supply Line <br />
-                        Complete Estimate of Work will be Provided Instantly <br />
-                        Quick Turnaround time based on Approval <br />
-                        Discount on Spares and Repair Labour <br />
-                        21 Days Warranty on Labour
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-sm-6 mb-3">
-                <div class="card card_border">
-                    <div class="card-header">
-                        <img src="image/oil_leakage.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h3 class="fw-bold text-center">Engine Oil Leakage Inspection</h3>
-                        <hr>
-                        Test ride of Vehicle is Done to Identify Issues <br />
-                        Checking of Vehicle Condition <br />
-                        Physical Inspection of Fuel Supply Line <br />
-                        Complete Estimate of Work will be Provided Instantly <br />
-                        Quick Turnaround time based on Approval <br />
-                        Discount on Spares and Repair Labour
+                <div class="col-12 col-md-3 col-sm-6 mb-3">
+                    <div class="card card_border">
+                        <div class="card-header">
+                            <img src="image/bike_buysell.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="fw-bold text-center"> Bike Buy Sell Inspection</h3>
+                            <hr>
+                            <b>Package Inclusions</b>
+                            Immediate Quote is provided by Icon Team <br />
+                            Incase vehicle is not in running condition, basic diagnostics is done to access scope of
+                            work
+                            <br />
+                            Test ride of vehicle is done to identify issues <br />
+                            Mechanic visit at doorstep for inspection <br />
+                            Quick turn around time to complete job at doorstep <br />
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-3 col-sm-6 mb-3">
-                <div class="card card_border">
-                    <div class="card-header">
-                        <img src="image/Gear_Shiftng.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h3 class="fw-bold text-center">Gear Shiftng Issue</h3>
-                        <hr>
-                        <b>(1)Package Inclusions</b> <br />
-                        Test ride of Vehicle is Done to Identify Issues<br />
-                        Checking the Chain Play Condition <br />
-                        Complete Estimate of Work will be Provided Instantly <br />
-                        21 Days Warranty on Labour <br>
-                        <b>(2)Package Excluded</b>
-                        Spares and Labour not included
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-sm-6 mb-3">
-                <div class="card card_border">
-                    <div class="card-header">
-                        <img src="image/carborator.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h3 class="fw-bold text-center"> Bike Carburator Issue</h3>
-                        <hr>
-                        Test ride of Vehicle is Done to <br />Identify Issues <br />
-                        Checking of Vehicle Condition <br />
-                        Checking the Chain Play Condition<br />
-                        Complete Estimate of Work will be Provided Instantly<br />
-                        Quick Turnaround time based on <br />Approvaldone Discount on Spares and Repair Labour<br />
-                        7 Days Warranty on Labour
+                <div class="col-12 col-md-3 col-sm-6 mb-3">
+                    <div class="card card_border">
+                        <div class="card-header">
+                            <img src="image/engine_work.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="fw-bold text-center">Engine Work Inspection</h3>
+                            <hr>
+                            <b>(1)Package Inclusions</b>
+                            Checking for Emission from Exhaust <br />
+                            Checking the Oil Leakage <br />
+                            Check Engine Oil Level <br />
+                            Estimate of Work will be Provided Instantly <br />
+                            Discount on Spares and Repair Labour <br />
+                            <b>(2)Package Excluded</b>
+                            Spares Not Included done <br />
+                            Repair or Service Work<br />
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-3 col-sm-6 mb-3">
-                <div class="card card_border">
-                    <div class="card-header">
-                        <img src="image/Doorstep _nspection.png" class="img-fluid" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h3 class="fw-bold text-center">Doorstep Inspection (visit and inspection only)</h3>
-                        <hr>
-                        Mechanic at Doorstep to Inspect Bike <br>
-                        Complete Estimate Provided <br>
-                        Get Repairs Done at Doorstep**
+                <div class="col-12 col-md-3 col-sm-6 mb-3">
+                    <div class="card card_border">
+                        <div class="card-header">
+                            <img src="image/petrol_leakage.jpeg" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="fw-bold text-center">Petrol Leakage Inspection</h3>
+                            <hr>
+                            Test ride of Vehicle is Done to Identify Issues <br />
+                            Checking of Vehicle Condition <br />
+                            Physical Inspection of Fuel Supply Line <br />
+                            Complete Estimate of Work will be Provided Instantly <br />
+                            Quick Turnaround time based on Approval <br />
+                            Discount on Spares and Repair Labour <br />
+                            21 Days Warranty on Labour
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="col-12 col-md-3 col-sm-6 mb-3">
+                    <div class="card card_border">
+                        <div class="card-header">
+                            <img src="image/oil_leakage.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="fw-bold text-center">Engine Oil Leakage Inspection</h3>
+                            <hr>
+                            Test ride of Vehicle is Done to Identify Issues <br />
+                            Checking of Vehicle Condition <br />
+                            Physical Inspection of Fuel Supply Line <br />
+                            Complete Estimate of Work will be Provided Instantly <br />
+                            Quick Turnaround time based on Approval <br />
+                            Discount on Spares and Repair Labour
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 mb-3">
+                    <div class="card card_border">
+                        <div class="card-header">
+                            <img src="image/Gear_Shiftng.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="fw-bold text-center">Gear Shiftng Issue</h3>
+                            <hr>
+                            <b>(1)Package Inclusions</b> <br />
+                            Test ride of Vehicle is Done to Identify Issues<br />
+                            Checking the Chain Play Condition <br />
+                            Complete Estimate of Work will be Provided Instantly <br />
+                            21 Days Warranty on Labour <br>
+                            <b>(2)Package Excluded</b>
+                            Spares and Labour not included
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 mb-3">
+                    <div class="card card_border">
+                        <div class="card-header">
+                            <img src="image/carborator.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="fw-bold text-center"> Bike Carburator Issue</h3>
+                            <hr>
+                            Test ride of Vehicle is Done to <br />Identify Issues <br />
+                            Checking of Vehicle Condition <br />
+                            Checking the Chain Play Condition<br />
+                            Complete Estimate of Work will be Provided Instantly<br />
+                            Quick Turnaround time based on <br />Approvaldone Discount on Spares and Repair Labour<br />
+                            7 Days Warranty on Labour
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 mb-3">
+                    <div class="card card_border">
+                        <div class="card-header">
+                            <img src="image/Doorstep _nspection.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="fw-bold text-center">Doorstep Inspection (visit and inspection only)</h3>
+                            <hr>
+                            Mechanic at Doorstep to Inspect Bike <br>
+                            Complete Estimate Provided <br>
+                            Get Repairs Done at Doorstep**
+                        </div>
+                    </div>
+                </div>
 
+            </div>
         </div>
-    </div>
+    </section>
     <!-- (2) Bike inspection Service  -->
     <!-- brand  -->
-    <div class="container mt-5 how-work">
-        <h2 class="text-center fw-bold text-uppercase m-5">
-            we Service in brands
-        </h2>
+    <div class="container mt-5 pt-5 how-work">
+        <div class="row">
+            <div class="col-12">
+                <div class="logo">
+                    <span class="logo-font">We Service In </span>Brand
+                </div>
+            </div>
+        </div>
         <div class="row justify-content-center  ">
             <div class=" col-sm-3 col-md-1 col-4 my-4">
                 <img src="image/bajaj_logo3.jpg" class="img-fluid" alt="">
@@ -448,84 +475,159 @@
     </div>
     <!-- brand  -->
     <!-- Battery  -->
-    <div class="container-fluid mt-5 p-4 bg-success-subtle">
-        <h2 class="text-center fw-bold text-uppercase mb-4"> Battery</h2>
-        <div class="row card_border p-5">
-            <div class="col-12 col-md-3 ">
-                <div class="card shadow ">
-                    <div class="card-header">
-                        <img src="image/battery_charging.jpeg" class="img-fluid card-img-top" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title fw-bold text-center"> Battery Charging</h4>
-                        <p>
-                            Check Voltage & AMPS at different stages <br />
-                            Check water level/acid levels (For Wet Batteries)<br />
-                            10 Hour Slow Charging process<br />
-                            24 Hours Pickup & Drop at Doorstep<br />
-                            Specifications<br />
-                            Charging Process<br />
-                            6-24 Hours
-                        </p>
-
+    <section id="battery">
+        <div class="container-fluid mt-5 pt-5 bgc-4">
+            <div class="row">
+                <div class="col-12">
+                    <div class="logo">
+                        <span class="logo-font">Battery </span>Care
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3">
-                <div class="card shadow ">
-                    <div class="card-header">
-                        <img src="image/new_battery.jpg" class="img-fluid card-img-top" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title fw-bold text-center"> New Battery</h4>
-                        <p>
-                            Amaron & Exide Compunies Battery avalable <br>
-                            Woranty and Garanty is an depended on compunies offers.
-                        </p>
+            <div class="row card_border p-5">
+                <div class="col-12 col-md-3 ">
+                    <div class="card shadow ">
+                        <div class="card-header">
+                            <img src="image/battery_charging.jpeg" class="img-fluid card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold text-center"> Battery Charging</h4>
+                            <p>
+                                Check Voltage & AMPS at different stages <br />
+                                Check water level/acid levels (For Wet Batteries)<br />
+                                10 Hour Slow Charging process<br />
+                                24 Hours Pickup & Drop at Doorstep<br />
+                                Specifications<br />
+                                Charging Process<br />
+                                6-24 Hours
+                            </p>
 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-3">
-                <div class="card shadow ">
-                    <div class="card-header">
-                        <img src="image/replace_battery.jpg" class="img-fluid card-img-top" alt="">
+                <div class="col-12 col-md-3">
+                    <div class="card shadow ">
+                        <div class="card-header">
+                            <img src="image/new_battery.jpg" class="img-fluid card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold text-center"> New Battery</h4>
+                            <p>
+                                Amaron & Exide Compunies Battery avalable <br>
+                                Woranty and Garanty is an depended on compunies offers.
+                            </p>
+
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <h4 class="card-title fw-bold text-center"> Replace</h4>
-                        <p>
-                            If the battery is under worany then replace as per condition of Compuny
-                            Battery buyback offers <br>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card shadow ">
+                        <div class="card-header">
+                            <img src="image/replace_battery.jpg" class="img-fluid card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold text-center"> Replace</h4>
+                            <p>
+                                If the battery is under worany then replace as per condition of Compuny
+                                Battery buyback offers <br>
                                 If you buy a new battery and return the old battery, we will give you a cash discount
-                        </p>
+                            </p>
 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-3">
-                <div class="card shadow ">
-                    <div class="card-header">
-                        <img src="image/buy_bake.jpg" class="img-fluid card-img-top" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title fw-bold text-center">Battery buyback offers</h4>
-                        <p>
-                            If you buy a new battery and return the old battery, we will give you a cash discount
-                        </p>
+                <div class="col-12 col-md-3">
+                    <div class="card shadow ">
+                        <div class="card-header">
+                            <img src="image/buy_bake.jpg" class="img-fluid card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold text-center">Battery buyback offers</h4>
+                            <p>
+                                If you buy a new battery and return the old battery, we will give you a cash discount
+                            </p>
 
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Battery  -->
 
+    <!-- engine work  -->
+        <section id="engine_work">
+        <div class="container mt-4 pt-5 pb-5 bgc-2">
+            <div class="row">
+                <div class="col-12">
+                    <div class="logo">
+                        <span class="logo-font">Engine </span>Work
+                    </div>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="col-12 col-md-4 card_border justify-content-center p-4">
+                    <img src="image/engine_cylinder_head.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-md-8 card_border p-4">
+                    <h4 class="fw-bold">Cylinder Head Reboring</h4>
+                    <p class="fs-5"> Includes Cylinder reboring and Labour costs only. <br />
+                        Spare Parts Cost is additional <br />
+                        Doorstep Inspection of Vehicle <br />
+                        Vehicle Towing done by Bykmo <br />
+                        Complete Estimate provided on Engine Opening<br />
+                        Standardised Repair Process<br />
+                        21 Day Warranty on Spares and Labour
+                    </p>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="col-12 col-md-4 card_border justify-content-center p-4">
+                    <img src="image/half_engine.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-md-8 card_border p-4">
+                    <h4 class="fw-bold"> Half Engine Repair</h4>
+                    <p class="fs-5">
+                        Reviving the dormant core, mechanics meticulously explore<br />
+                        With skilled hands and knowledge, they restore<br />
+                        Half engine's ailments, they deftly repair<br />
+                        Bike's heartbeat revived, ready to dare.<br />
+                        With a final touch, the key is turned <br />
+                        The bike exhales, its power returned.<br />
+                        Revving to life, it roars with delight
+                    </p>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="col-12 col-md-4 card_border justify-content-center p-4">
+                    <img src="image/full_engine.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-md-8 card_border p-4">
+                    <h4 class="fw-bold">Full Engine Repair</h4>
+                    <p class="fs-5">
+                        In the depths of the garage, a silent machine awaits <br />
+                        Its engine's whispers drowned by mechanical debates.<br />
+                        Wrenches twist, spark plugs ignite, as expertise takes the lead <br />
+                        Repairing the heart, restoring its power, fulfilling its need.<br />
+                        With skilled hands and determination, the engine comes alive<br />
+                        Roaring to life, the motorbike triumphantly thrives.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- engine work  -->
+
     <!-- Motorbike Electrical Repair  -->
-    <section class="pt-5 pb-5 nav-bg-color">
+    <section class="pt-5 pb-5 bgc-3" id="electrical_repair">
         <div class="container">
-            <h2 class="text-center fw-bold text-uppercase m-5">
-                Motorbike Electrical Repair
-            </h2>
+            <div class="row">
+                <div class="col-12">
+                    <div class="logo">
+                        <span class="logo-font">Motorbike </span>Elecrical Repair
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-12 text-center">
                     <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
@@ -649,13 +751,171 @@
     </section>
     <!-- Motorbike Electrical Repair  -->
 
-        <!-- engine work  -->
-        <div class="container-fluid mt-5">
-            <h2 class="text-center fw-bold text-uppercase mb-4">Engine Work</h2>
+    <!-- Review -->
+    <div class="container mt-5 pt-5" id="review">
+        <div class="row">
+            <div class="col-12">
+                <div class="logo">
+                    <span class="logo-font">Costumer </span>Review
+                </div>
+            </div>
         </div>
-        <!-- engine work  -->
+        <div class="mt-4 pt-4">
+
+            <ul class="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm">
+                <li>
+                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="wpx-100 img-round mgb-20"
+                        title="" alt="" data-edit="false" data-editor="field"
+                        data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                    <p class="fs-110 font-cond-l" contenteditable="false">"I recently had my motorbike serviced at [Icon Bike Care], and I must say it was an exceptional experience from start to finish."
+                    </p>
+                    <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Sanjay Savaliya</h5>
+                    <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Business Man -Bhavnagar
+
+                    </small>
+                </li>
+                <li>
+                    <img src="https://bootdey.com/img/Content/avatar/avatar4.png" class="wpx-100 img-round mgb-20"
+                        title="" alt="" data-edit="false" data-editor="field"
+                        data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                    <p class="fs-110 font-cond-l" contenteditable="false">"First and foremost, the staff at [Icon Bike Care] were incredibly friendly and welcoming. From the moment I walked in, I was greeted with a warm smile and felt valued as a customer. "
+                    </p>
+                    <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Manish Dudhat</h5>
+                    <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Youtuber - Bhavnagar
+                    </small>
+                </li>
+                <li>
+                    <img src="https://bootdey.com/img/Content/avatar/avatar5.png" class="wpx-100 img-round mgb-20"
+                        title="" alt="" data-edit="false" data-editor="field"
+                        data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                    <p class="fs-110 font-cond-l" contenteditable="false">"The technicians at [Icon Bike Care] demonstrated their expertise and attention to detail throughout the servicing process. They meticulously inspected my motorbike, diagnosing any issues and explaining them to me in a clear and understandable manner."
+                    </p>
+                    <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Mohit Patel</h5>
+                    <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Fund Manager -
+                        Bhavnagar</small>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Review -->
+
+        <!-- Book Service  -->
+        <div class="container mt-5 pt-5" id="book_service">
+            <div class="">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="logo">
+                            <span class="logo-font">Book </span>Service
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <br>
+                        <h3 class="header-title">Book Service Appointment</h3>
+                        <form class="login-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Email or UserName">
+                            </div>
+                            <div class="form-group">
+                                <input type="Password" class="form-control" placeholder="Password">
+                                <a href="#!" class="forgot-password">Forgot Password?</a>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary btn-block">LOGIN</button>
+                            </div>
+                            <div class="form-group">
+                                <div class="text-center">New Member? <a href="#!">Sign up Now</a></div>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Book Service  -->
+
+        <!-- footer  -->
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container-fluid mt-5">
+
+    <footer class="text-center text-white" style="background-color: #ddd9d9;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a> <br>-::Developed by Sanjay Savaliya::-
+    </div>
+    <!-- Copyright -->
+  </footer>
     
-    
+  </div>
+  <!-- End of .container -->
+        <!-- footer  -->
+
+        <script type='text/javascript' src=''></script>
+        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+        <script type='text/javascript'src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
